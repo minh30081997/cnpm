@@ -21,7 +21,6 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-
 </head>
 
 <body>
@@ -37,14 +36,14 @@
         <!--<li class="active">Data</li>-->
     </ul>
     <!-- Main hero unit for a primary marketing message or call to action -->
-    <div class="hero-unit">
+    <div class="hero-unit" style="background-color: #f5f5f5;">
         <h2 style="color:#880000;">Bộ môn Công nghệ Phần mềm
             <!--<br><small><a href="http://fit.uet.vnu.edu.vn">Khoa CNTT</a>,-->
             <!--<a href="http://www.uet.edu.vn">Trường ĐH Công nghệ</a> - <a href="http://www.vnu.edu.vn">ĐHQGHN</a>.</small>-->
         </h2>
         <address>Phòng 309 - Nhà E3, 144 Xuân Thủy, Cầu Giấy, Hà Nội.
             &nbsp;<i class="icon-phone"></i>+84 437549016
-            &nbsp;<i class="icon-envelope"></i> hoangta@vnu.edu.vn
+            &nbsp;<i class="icon-envelope"></i> hoangta@vnu.edu.vn, dseuet@gmail.com
         </address>
     </div>
 
@@ -53,7 +52,7 @@
         <a class="btn span4 btn-success" href="members.html">
             <h3>Đội ngũ</h3>
 
-            <p>Giảng viên, cán bộ tạo nguồn, nghiên cứu sinh</p>
+            <p>Giảng viên, cán bộ, cộng tác viên</p>
             <!--<ol>-->
             <!--<li>TS. Trương Anh Hoàng</li>-->
             <!--<li>PGS.TS. Nguyễn Ngọc Bình</li>-->
@@ -90,13 +89,29 @@
             <!--</div>-->
         </a>
     </div>
+    <br>
+    <br>
+
+    <div class="row-fluid">
+        <div class="span6">
+            <h3>Tin tức, hoạt động</h3>
+        </div>
+        <div class="span6">
+            <h3>Bình luận, trao đổi</h3>
+
+            <div class="fb-comments" data-href="http://www.uet.vnu.edu.vn/cnpm" data-num-posts="2" data-width="470"
+                 data-colorscheme="dark"></div>
+        </div>
+
+    </div>
 
     <hr>
 
     <footer>
-        <p class="pull-right" style="color: #BBB;"><small>Cập nhật tháng 9/2012</small> </p>
+        <p class="pull-right" style="color: #BBB;">
+            <small>Cập nhật tháng 9/2012</small>
+        </p>
     </footer>
-
 </div>
 <!-- /container -->
 
@@ -117,6 +132,16 @@
 <!--<script src="assets/js/bootstrap-collapse.js"></script>-->
 <!--<script src="assets/js/bootstrap-carousel.js"></script>-->
 <!--<script src="assets/js/bootstrap-typeahead.js"></script>-->
+
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/vi_VN/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 </body>
 </html>
