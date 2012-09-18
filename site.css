@@ -1,5 +1,5 @@
 body {
-    font-family: "OpenSansRegular",Tahoma,Arial,Helvetica,Sans-Serif;
+    font-family: "OpenSansRegular", Tahoma, Arial, Helvetica, Sans-Serif;
 }
 
 .btn, .btn-large {
@@ -49,6 +49,24 @@ a:hover {
     text-decoration: none;
 }
 
-p {
-    text-align: justify;
+/*div p {*/
+/*text-align: justify;*/
+/*}*/
+
+.btn, div, .hero-unit, * {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.background-icon {
+    position:absolute;
+    right:1em;
+    top:.5em;
+    z-index:-1;
+    /*float: right;*/
+    font-size: 5em;
+    margin-right: 1em;
+    color: #f5f5f5;
+    color:rgba(1, 1, 1, .3);
 }
