@@ -58,7 +58,9 @@ a:hover {
     -moz-border-radius: 0;
     border-radius: 0;
 }
-
+.hero-unit {
+    padding: 1em 0 1em 0;
+}
 .background-icon {
     position:absolute;
     right:1em;
@@ -72,6 +74,10 @@ a:hover {
 }
 
 .breadcrumb {
-    margin-top: 2em;
+    /*margin-top: 1em;*/
     background: none;
+}
+
+.align-justify {
+    text-align: justify;
 }
